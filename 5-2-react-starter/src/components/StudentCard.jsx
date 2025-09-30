@@ -1,11 +1,11 @@
 import './StudentCard.css';
 
-function StudentCard({ student }) {
+function StudentCard({ props }) {
   return (
     <div className="student-card">
-      <h3>{student.name}</h3>
-      <p>ID: {student.id}</p>
-      <p>Department: {student.department}</p>
+      <h3>{props.name}</h3>
+      <p>ID: {props.id}</p>
+      <p>Department: {props.department}</p>
     </div>
   )
 }
