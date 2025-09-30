@@ -4,8 +4,8 @@ function StudentCard(props) {
   return (
     <div className="student-card">
       <h3>Name: {props.name}</h3>
-      <p>ID: {props.id}</p>
-      <p>Department: {props.department}</p>
+      <p>ID: {props.studentId}</p>
+      <p>Department: {props.dept}</p>
     </div>
   )
 }
