@@ -1,5 +1,6 @@
 import './StudentCard.css';
 
+// StudentCard component displays individual student information
 function StudentCard(props) {
   return (
     <div className="student-card">
