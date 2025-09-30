@@ -12,8 +12,8 @@ function App() {
       <main className="dashboard-main">
         <div className="cards-container">
           {/* TODO: Import and render StudentCard components here */}
-          <StudentCard props={{ name: "Almaan Khan", id: 202335270, department: "Computer Science" }} />
-          <StudentCard props={{ name: "John Doe", id: 202335271, department: "Mathematics" }} />
+          <StudentCard name="Almaan Khan" id="202335270" department="Computer Science" />
+          <StudentCard name="John Doe" id="202335271" department="Mathematics" />
         </div>
       </main>
     </div>
