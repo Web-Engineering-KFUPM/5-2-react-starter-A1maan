@@ -1,5 +1,5 @@
 import './App.css'
-import StudentCard from './StudentCard'
+import StudentCard from './components/StudentCard'
 
 function App() {
   return (
